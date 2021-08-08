@@ -1,0 +1,73 @@
+<!doctype html>
+
+<html>
+
+   <head>
+   		<title>Login</title>
+   		<meta charset="utf-8">
+   </head>
+
+   <body>
+
+
+      <h2> <a href="index.html">
+         Home
+      </a>
+      / <a href="contato.html">
+         Contatos</a> /
+         <a href="tabela.html">
+         Tabela</a>
+         / <a href="formularios.html">
+         Login</a>
+   </h2>
+
+
+      <!-- action: envia para uma outra linguagem -->
+      <h2>Login</h2>
+      <form action="processa.php">
+
+         Login:<br>
+         <input type="text" name="login"><br>
+
+         Senha:<br>
+         <input type="password" name="senha"><br>
+            <!-- button, submit. -->
+         <input type="button" value="logar"><br>
+
+      </form>
+
+      <form>
+         <h2>Cadastre-se</h2>
+         Login:<br>
+            <input type="text" name="login"><br>
+
+            sexo: <br>
+            <input type="radio" name="sexo" value="M">Masculino<br>
+            <input type="radio" name="sexo" value="F">Feminino<br>
+
+            E-mail: <br>
+            <input type="text" name="email"><br>
+
+            Interesses<br>
+            <input type="checkbox" name="Interesses">Cursos<br>
+            <input type="checkbox" name="Interesses">Jogos<br>
+            <input type="checkbox" name="Interesses">
+
+            Estados<br>
+            <select name="estado">
+               <option value="sp">SP</option>
+               <option value="mg">MG</option>
+               <option value="rj">RJ</option>
+               <option value="rs">RS</option>
+
+            </select><br><br>
+
+            Observações: <br>
+            <textarea></textarea><br>
+
+            <input type="submit" value="Cadastrar">
+
+         </form>
+   </body>
+
+</html>
